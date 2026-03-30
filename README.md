@@ -39,7 +39,7 @@ Note: Verify that /etc/proxychains4.conf is set to socks5 127.0.0.1 9050.
 
 # Clone the repository
 ```Bash
-git clone [https://github.com/hiddendestroyer1945/recon_web.git](https://github.com/hiddendestroyer1945/recon_web.git)
+git clone https://github.com/hiddendestroyer1945/recon_web.git
 cd recon_web
 ```
 
