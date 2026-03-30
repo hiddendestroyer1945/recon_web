@@ -81,6 +81,7 @@ Enter website for ReconWeb analysis: example.com
 
 The program will generate/update the following file:
 reports/results.json
+
 📂 Use Case
 
     Security Auditing: Identifying outdated server versions and exposed technology stacks.
@@ -94,6 +95,7 @@ reports/results.json
 ⚖️ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 ⚠️ Disclaimer
 
 This tool is provided for educational and authorized security testing purposes only. The developers assume no liability and are not responsible for any misuse or damage caused by this program. Users are responsible for complying with all applicable laws and regulations. Always obtain proper authorization before testing systems you do not own.
