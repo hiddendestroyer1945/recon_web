@@ -26,49 +26,53 @@ ReconWeb requires specific system binaries to handle network protocols and proxy
 ```bash
 sudo apt update
 sudo apt install -y tor proxychains4 whois python3-pip python3-venv
-
+```
 2. Service Configuration
 
 Start the Tor service and ensure it is running on the default port (9050).
-Bash
+```Bash
 
 sudo systemctl start tor
 sudo systemctl enable tor
-
+```
 Note: Verify that /etc/proxychains4.conf is set to socks5 127.0.0.1 9050.
-3. Python Environment Setup
-Bash
 
 # Clone the repository
+```Bash
 git clone [https://github.com/hiddendestroyer1945/recon_web.git](https://github.com/hiddendestroyer1945/recon_web.git)
 cd recon_web
+```
 
 # Create and activate virtual environment
+```Bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 # Configuration (.env)
 ReconWeb uses an environment file to securely handle your BuiltWith API key. 
 
 1. Create a file named `.env` in the root directory:
    ```bash
    touch .env
+   ```
 
  2. Open the file and add your BuiltWith API key:
-Plaintext
-
+```text
 BUILTWITH_API_KEY=your_api_key_here  
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 🛠 Usage & Examples
 
 Always execute the program through proxychains4 to ensure your real IP address is masked by the Tor network.
 Execution
-Bash
+```Bash
 
 proxychains4 python3 recon_web.py
+```
 
 Example Input/Output
 
