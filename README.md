@@ -52,11 +52,11 @@ source venv/bin/activate
 ReconWeb uses an environment file to securely handle your BuiltWith API key. 
 
 1. Create a file named `.env` in the root directory:
-   ```bash
-   touch .env
-   ```
+```bash
+touch .env
+```
 
- 2. Open the file and add your BuiltWith API key:
+2. Open the file and add your BuiltWith API key:
 ```text
 BUILTWITH_API_KEY=your_api_key_here  
 ```
