@@ -84,11 +84,11 @@ reports/results.json
 
 📂 Use Case
 
-    Security Auditing: Identifying outdated server versions and exposed technology stacks.
+  - Security Auditing: Identifying outdated server versions and exposed technology stacks.
 
-    Competitive Intelligence: Analyzing the third-party apps and infrastructure used by competitors.
+  - Competitive Intelligence: Analyzing the third-party apps and infrastructure used by competitors.
 
-    Bug Bounty Hunting: Quick reconnaissance of target domains to find entry points or misconfigured DNS records.
+  - Bug Bounty Hunting: Quick reconnaissance of target domains to find entry points or misconfigured DNS records.
 
     Privacy Research: Performing lookups without revealing the researcher's origin IP.
 
