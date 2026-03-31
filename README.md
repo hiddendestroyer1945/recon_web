@@ -99,6 +99,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ⚠️ Disclaimer
 
 This tool is provided for educational and authorized security testing purposes only. The developers assume no liability and are not responsible for any misuse or damage caused by this program. Users are responsible for complying with all applicable laws and regulations. Always obtain proper authorization before testing systems you do not own.
+
 👤 Author
 
 Created by a professional Python programmer with expertise in Linux system administration and penetration testing.
